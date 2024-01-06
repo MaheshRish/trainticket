@@ -1,0 +1,14 @@
+create database TrainTicket;
+use TrainTicket;
+show databases;
+create table user( userid int , firstname varchar(25),lastname varchar(25), password int,email varchar(100),address varchar(20));
+insert into User values(1,'Mahesh','Rish',132,'Mahesh@gamil.com','USA');
+insert into User values(2,'Rishmma','mahi',122,'Rishmma@gamil.com','USA');
+select * from User;
+select * from train;
+drop database TrainTicket;
+drop table train;
+show tables;
+create table train(tid int,trainnmuber int,startplace varchar(20),destination varchar(20), availableSeats int,pricepaid int(10) );
+insert into train values(1,1001,'London','France',54,200);
+insert into train values(2,1002,'London','paris',30,200);
