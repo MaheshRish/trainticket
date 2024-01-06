@@ -1,0 +1,23 @@
+h1{
+	text-align: center;
+	
+}
+body{
+	background-color: lightskyblue;
+	background-image: url(train1.jpg);
+}
+from{
+	text-align: center;
+}
+button{
+	background-color: green;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size:14px ;
+	margin:4px 2px;
+	cursor: pointer;
+}
